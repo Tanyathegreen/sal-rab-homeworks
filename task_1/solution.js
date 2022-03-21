@@ -34,7 +34,7 @@ function addInCartMessage(title, price) {
 
 function addInCartCountChange(value) {
 
-let oldValue = value;
+    
 let newValue;
 newValue = oldValue;
 newValue = newValue + 1;
