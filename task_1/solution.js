@@ -41,8 +41,6 @@ newValue = newValue + 1;
 
 
     // Задание №1.2. Увеличение количества в корзине
-    let oldValue = value;
-
     // создайте переменную newValue
     // присвойте ей значение oldValue
     // увеличьте значение newValue на 1
