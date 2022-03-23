@@ -6,7 +6,7 @@ function calcShipping(sum, min, shipping) {
     if (productsSum == 0 || productsSum >= freeShippingMinSum) {
         shippingsum =0;
     }
-    else (productsSum >0 && productsSum < freeShippingMinSum {
+    else (productsSum >0 && productsSum < freeShippingMinSum) {
         shippingsum=shippingPrice
     }
 
