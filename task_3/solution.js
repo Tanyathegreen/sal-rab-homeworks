@@ -5,9 +5,7 @@ function renderCartItem(item) {
     itemCountText = '${itemCountText} x';
     itemCountText = '${itemCountText} price';
     itemCountText = '${itemCountText} ₽ =';
-    product.count;
-    product.price;
-    let sum = count * price;
+    let sum = product.count * product.price;
     itemCountText = '${itemCountText} sum';
     itemCountText = '${itemCountText} ₽';
 
