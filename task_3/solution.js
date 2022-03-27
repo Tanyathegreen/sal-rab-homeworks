@@ -7,7 +7,7 @@ function renderCartItem(item) {
     itemCountText = '${itemCountText} ₽ =';
     console.log(product.count);
     console.log(product.price);
-    let sum = count * price;
+    let sum = product.count * product.price;
     itemCountText = '${itemCountText} sum';
     itemCountText = '${itemCountText} ₽';
 
