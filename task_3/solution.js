@@ -4,10 +4,10 @@ function renderCartItem(item) {
     itemCountText = '${itemCountText} count';
     itemCountText = '${itemCountText} x';
     itemCountText = '${itemCountText} price';
-    itemCountText = '${itemCountText} ₽ =';
+    itemCountText = '${itemCountText} ₽ = ';
     let sum = product.count * product.price;
     itemCountText = '${itemCountText} sum';
-    itemCountText = '${itemCountText} ₽';
+    itemCountText = '${itemCountText} ₽ ';
 
     // Задание №3.1. Формирование строки корзины
 
