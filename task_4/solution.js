@@ -3,7 +3,7 @@
 function parseProducts(json) {
     // Аргументом функции является JSON
     let data = JSON.parse(json);
-    let products = data.products();
+    let products = data.products;
     
     // Преобразуйте строку json, переданную как аргумент функции,
     // в объект с помощью функции JSON.parse(json)
@@ -17,7 +17,7 @@ function renderProductsCards(json) {
     clearProducts();
     products = parseProducts(json);
     for (let i = 0; i < products.length; i += 1) {
-        addProducts(products[i]);
+        addProduct(products[i]);
     }
 }
 
