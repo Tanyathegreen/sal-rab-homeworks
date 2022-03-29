@@ -34,9 +34,14 @@
 // }
 
 function sendRequest(name, phone, address, goods, sum) {
-    let data = {client: {name, phone}, goods: [{title, count}], order: {address, sum}};
-    const obj = {data: data};
+    const data = {
+        client: {name, phone}, 
+        goods: [{title}, {count}], 
+        order: {address, sum}
+
+    };
     
+
 
     let countOfGoods = goods.length;
 
@@ -49,7 +54,7 @@ function sendRequest(name, phone, address, goods, sum) {
 
     data.client = 'Иван';
 
-    let jsonData = JSON.stringify(data);
+    let jsonData = JSON.stringify({data});
 
     return jsonData;
 }
